@@ -1,0 +1,202 @@
+INFO:root:New best model at fold 1 with AUC: 0.6833
+INFO:root:New best model at fold 5 with AUC: 0.6928
+INFO:root:New best model at fold 1 with AUC: 0.6859
+INFO:root:New best model at fold 4 with AUC: 0.6876
+INFO:root:New best model at fold 5 with AUC: 0.6930
+INFO:root:New best model at fold 1 with AUC: 0.6805
+INFO:root:New best model at fold 4 with AUC: 0.6899
+INFO:root:New best model at fold 5 with AUC: 0.6986
+INFO:root:New best model at fold 1 with AUC: 0.6971
+INFO:root:New best model at fold 1 with AUC: 0.6882
+INFO:root:New best model at fold 4 with AUC: 0.6883
+INFO:root:New best model at fold 1 with AUC: 0.6844
+INFO:root:New best model at fold 4 with AUC: 0.6852
+INFO:root:New best model at fold 5 with AUC: 0.6932
+INFO:root:New best model at fold 1 with AUC: 0.6871
+INFO:root:New best model at fold 5 with AUC: 0.6973
+2025-05-11 10:44:36,831 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 10:46:36,181 - INFO - 数据预处理完成
+2025-05-11 10:46:36,182 - ERROR - 主流程失败: 'train'
+2025-05-11 11:03:10,864 - ERROR - 数据加载失败: [Errno 2] No such file or directory: 'merged_static_dynamic_data.csv'
+2025-05-11 11:04:10,669 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 11:05:34,864 - INFO - 数据预处理完成
+2025-05-11 11:05:43,784 - INFO - 生成序列完成，样本量: 20342
+2025-05-11 11:05:48,628 - INFO - 生成序列完成，样本量: 12001
+2025-05-11 11:06:57,484 - INFO - 评估结果:
+2025-05-11 11:06:57,484 - INFO - AUC: 0.7756
+2025-05-11 11:06:57,484 - INFO - F1: 0.1555
+2025-05-11 11:06:57,484 - INFO - Accuracy: 0.9158
+2025-05-11 11:06:57,484 - INFO - Sensitivity: 0.0906
+2025-05-11 11:06:57,484 - INFO - Specificity: 0.9930
+2025-05-11 11:06:57,484 - INFO - PPV: 0.5471
+2025-05-11 11:06:57,484 - INFO - NPV: 0.9211
+2025-05-11 11:06:57,485 - INFO - AP: 0.2778
+2025-05-11 11:06:58,166 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-11 11:06:58,586 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-11 11:08:32,523 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-11 11:08:32,584 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-11 11:25:33,980 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 11:27:16,324 - INFO - 数据预处理完成
+2025-05-11 11:27:25,076 - INFO - 生成序列完成，样本量: 20342
+2025-05-11 11:27:30,809 - INFO - 生成序列完成，样本量: 12001
+2025-05-11 11:29:03,471 - INFO - 评估结果:
+2025-05-11 11:29:03,471 - INFO - AUC: 0.7787
+2025-05-11 11:29:03,471 - INFO - F1: 0.1603
+2025-05-11 11:29:03,471 - INFO - Accuracy: 0.9153
+2025-05-11 11:29:03,471 - INFO - Sensitivity: 0.0945
+2025-05-11 11:29:03,471 - INFO - Specificity: 0.9921
+2025-05-11 11:29:03,471 - INFO - PPV: 0.5272
+2025-05-11 11:29:03,471 - INFO - NPV: 0.9214
+2025-05-11 11:29:03,471 - INFO - AP: 0.2800
+2025-05-11 11:29:04,060 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 11:29:04,258 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-11 11:29:04,542 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 11:29:04,723 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-11 11:30:27,955 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 11:30:28,066 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-11 11:30:28,092 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-11 15:29:28,025 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 15:30:25,035 - INFO - 数据预处理完成
+2025-05-11 15:30:29,775 - INFO - 生成序列完成，样本量: 20342
+2025-05-11 15:30:32,681 - INFO - 生成序列完成，样本量: 12001
+2025-05-11 15:31:00,729 - INFO - 评估结果:
+2025-05-11 15:31:00,729 - INFO - AUC: 0.7547
+2025-05-11 15:31:00,729 - INFO - F1: 0.0341
+2025-05-11 15:31:00,729 - INFO - Accuracy: 0.9150
+2025-05-11 15:31:00,729 - INFO - Sensitivity: 0.0175
+2025-05-11 15:31:00,729 - INFO - Specificity: 0.9989
+2025-05-11 15:31:00,729 - INFO - PPV: 0.6000
+2025-05-11 15:31:00,729 - INFO - NPV: 0.9158
+2025-05-11 15:31:00,729 - INFO - AP: 0.2510
+2025-05-11 15:31:01,113 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:31:01,206 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-11 15:31:01,334 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:31:01,427 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-11 15:31:49,057 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:31:49,158 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-11 15:31:49,185 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-11 15:41:21,670 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 15:41:21,671 - INFO - 数据预处理完成
+2025-05-11 15:41:21,719 - ERROR - 数据标准化失败: "['comorbidities', 'lab1', 'lab2', 'lab3'] not in index"
+2025-05-11 15:41:21,719 - ERROR - 训练过程失败: "['comorbidities', 'lab1', 'lab2', 'lab3'] not in index"
+2025-05-11 15:45:48,754 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 15:46:41,753 - INFO - 数据预处理完成
+2025-05-11 15:46:41,757 - INFO - 阳性样本比例: 8.42%
+2025-05-11 15:46:47,185 - INFO - 生成序列完成，样本量: 20341
+2025-05-11 15:46:49,975 - INFO - 生成序列完成，样本量: 12047
+2025-05-11 15:47:15,787 - ERROR - 阈值优化失败: Input contains NaN, infinity or a value too large for dtype('float32').
+2025-05-11 15:47:15,788 - ERROR - 训练流程失败: Input contains NaN, infinity or a value too large for dtype('float32').
+2025-05-11 15:53:41,592 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 15:54:27,458 - INFO - 数据预处理完成
+2025-05-11 15:54:32,085 - INFO - 生成序列完成，样本量: 20342
+2025-05-11 15:54:34,628 - INFO - 生成序列完成，样本量: 12001
+2025-05-11 15:55:04,627 - INFO - 评估结果:
+2025-05-11 15:55:04,627 - INFO - AUC: 0.7630
+2025-05-11 15:55:04,627 - INFO - F1: 0.3062
+2025-05-11 15:55:04,627 - INFO - Accuracy: 0.8629
+2025-05-11 15:55:04,627 - INFO - Sensitivity: 0.3538
+2025-05-11 15:55:04,627 - INFO - Specificity: 0.9105
+2025-05-11 15:55:04,627 - INFO - PPV: 0.2699
+2025-05-11 15:55:04,627 - INFO - NPV: 0.9378
+2025-05-11 15:55:04,627 - INFO - AP: 0.2477
+2025-05-11 15:55:04,761 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:55:04,866 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-11 15:55:04,968 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:55:05,064 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-11 15:55:54,015 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:55:54,111 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-11 15:55:54,140 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-11 15:57:42,301 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 15:58:52,719 - INFO - 数据预处理完成
+2025-05-11 15:58:58,361 - INFO - 生成序列完成，样本量: 20342
+2025-05-11 15:59:00,999 - INFO - 生成序列完成，样本量: 12001
+2025-05-11 15:59:43,913 - INFO - 评估结果:
+2025-05-11 15:59:43,914 - INFO - AUC: 0.7662
+2025-05-11 15:59:43,914 - INFO - F1: 0.2531
+2025-05-11 15:59:43,914 - INFO - Accuracy: 0.6144
+2025-05-11 15:59:43,914 - INFO - Sensitivity: 0.7641
+2025-05-11 15:59:43,914 - INFO - Specificity: 0.6005
+2025-05-11 15:59:43,914 - INFO - PPV: 0.1517
+2025-05-11 15:59:43,914 - INFO - NPV: 0.9646
+2025-05-11 15:59:43,914 - INFO - AP: 0.2802
+2025-05-11 15:59:44,106 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:59:44,259 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-11 15:59:44,423 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 15:59:44,530 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-11 16:00:56,439 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 16:00:56,728 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-11 16:00:56,781 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-11 21:38:56,781 - INFO - 数据加载成功，样本量: 81508
+2025-05-11 21:41:38,224 - INFO - 数据预处理完成
+2025-05-11 21:41:58,292 - INFO - 生成序列完成，样本量: 20342
+2025-05-11 21:42:09,708 - INFO - 生成序列完成，样本量: 12001
+2025-05-11 21:44:09,013 - INFO - 评估结果:
+2025-05-11 21:44:09,046 - INFO - AUC: 0.7601
+2025-05-11 21:44:09,046 - INFO - F1: 0.2979
+2025-05-11 21:44:09,046 - INFO - Accuracy: 0.7635
+2025-05-11 21:44:09,046 - INFO - Sensitivity: 0.5867
+2025-05-11 21:44:09,047 - INFO - Specificity: 0.7800
+2025-05-11 21:44:09,047 - INFO - PPV: 0.1996
+2025-05-11 21:44:09,047 - INFO - NPV: 0.9528
+2025-05-11 21:44:09,047 - INFO - AP: 0.2514
+2025-05-11 21:44:10,259 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 21:44:10,572 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-11 21:44:10,996 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 21:44:11,424 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-11 21:46:56,391 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-11 21:46:56,699 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-11 21:46:56,791 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-15 08:04:13,531 - INFO - 数据加载成功，样本量: 81508
+2025-05-15 08:06:12,448 - INFO - 数据预处理完成
+2025-05-15 08:06:17,294 - INFO - 生成序列完成，样本量: 20342
+2025-05-15 08:06:19,836 - INFO - 生成序列完成，样本量: 12001
+2025-05-15 08:06:52,435 - INFO - 评估结果:
+2025-05-15 08:06:52,435 - INFO - AUC: 0.7576
+2025-05-15 08:06:52,435 - INFO - F1: 0.3075
+2025-05-15 08:06:52,435 - INFO - Accuracy: 0.7827
+2025-05-15 08:06:52,435 - INFO - Sensitivity: 0.5643
+2025-05-15 08:06:52,435 - INFO - Specificity: 0.8031
+2025-05-15 08:06:52,435 - INFO - PPV: 0.2113
+2025-05-15 08:06:52,435 - INFO - NPV: 0.9517
+2025-05-15 08:06:52,435 - INFO - AP: 0.2603
+2025-05-15 08:06:53,154 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-15 08:06:53,253 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-15 08:06:53,457 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-15 08:06:53,554 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-15 08:07:42,261 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-15 08:07:42,350 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-15 08:07:42,395 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-15 08:29:10,293 - INFO - 数据加载成功，样本量: 81508
+2025-05-15 08:29:54,837 - INFO - 数据预处理完成
+2025-05-15 08:29:59,444 - INFO - 生成序列完成，样本量: 20342
+2025-05-15 08:30:02,015 - INFO - 生成序列完成，样本量: 12001
+2025-05-15 08:30:35,193 - INFO - 评估结果:
+2025-05-15 08:30:35,194 - INFO - AUC: 0.7585
+2025-05-15 08:30:35,194 - INFO - F1: 0.2903
+2025-05-15 08:30:35,194 - INFO - Accuracy: 0.7514
+2025-05-15 08:30:35,194 - INFO - Sensitivity: 0.5945
+2025-05-15 08:30:35,194 - INFO - Specificity: 0.7661
+2025-05-15 08:30:35,194 - INFO - PPV: 0.1920
+2025-05-15 08:30:35,194 - INFO - NPV: 0.9529
+2025-05-15 08:30:35,194 - INFO - AP: 0.2627
+2025-05-15 08:30:35,687 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-15 08:30:35,782 - INFO - 已保存 roc 曲线到 saved_models\roc_curve.png
+2025-05-15 08:30:36,031 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-15 08:30:36,127 - INFO - 已保存 calibration 曲线到 saved_models\calibration_curve.png
+2025-05-15 08:31:24,706 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-05-15 08:31:24,804 - INFO - 已保存 dca 曲线到 saved_models\dca_curve.png
+2025-05-15 08:31:24,832 - INFO - 模型保存至: saved_models\gru_model.h5
+2025-05-20 10:28:33,185 - INFO - 数据加载成功，样本量: 81508
+2025-05-20 10:29:21,733 - INFO - 数据预处理完成
+2025-05-20 10:29:26,237 - INFO - 生成序列完成，样本量: 20342
+2025-05-20 10:29:29,712 - INFO - 生成序列完成，样本量: 12001
+2025-05-20 10:30:08,848 - INFO - 评估结果:
+2025-05-20 10:30:08,848 - INFO - AUC: 0.7627
+2025-05-20 10:30:08,848 - INFO - F1: 0.2874
+2025-05-20 10:30:08,848 - INFO - Accuracy: 0.7037
+2025-05-20 10:30:08,848 - INFO - Sensitivity: 0.6988
+2025-05-20 10:30:08,848 - INFO - Specificity: 0.7041
+2025-05-20 10:30:08,848 - INFO - PPV: 0.1809
+2025-05-20 10:30:08,848 - INFO - NPV: 0.9616
+2025-05-20 10:30:08,848 - INFO - AP: 0.2162
+2025-05-20 10:30:08,876 - INFO - 模型保存至: saved_models\gru_model.h5
